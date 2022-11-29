@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+}
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icon img{
+    width: 200px;
+}
+.navbaar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+.menu-section{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.social{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+a{
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+.social-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.social i{
+    padding: 20px;
+    font-size: 1.5rem;
+}
+.btn{
+    background-color: #ec0988;
+    font-size: 12.31px;
+    border-radius: 300px;
+    padding: 20px;
+}
+.btn a{
+    color: black;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+ /* main section start form here */
+
+ .main{
+    width: 100%;
+    background: linear-gradient(90deg, #ec098a48, #ec098a48),url(https://media.istockphoto.com/id/1358965099/photo/senior-couple-hugging-in-a-nursing-home-a-happy-senior-couple-standing-next-to-a-window-in-a.jpg?b=1&s=170667a&w=0&k=20&c=i6aR4UxxSn7gy6eiTwQ-csGcZvQFY2805Dd4AnJTdpc=);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    text-transform: uppercase;
+ }
+ .main h1,p{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 40%;
+
+ }
+ h1{
+    font-size: 5rem;
+ }
+ p{
+    font-size: 2rem;
+    top: 50%;
+ }
+ 
+@media only screen and (max-width: 576px) {
+    ul{
+        display: none;
+    }
+    .social{
+        display: none;
+    }
+    .icon{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .icon i{
+        color:  #ec0988;
+        font-size: 2rem;
+    }
+    .menu-section{
+        width: 100%;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+}
+ 
+@media only screen and (max-width: 768px) {
+
+    ul{
+        display: none;
+    }
+   
+    
+    .icon{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .icon i{
+        color:  #ec0988;
+        font-size: 30px;
+        
+    }
+    .menu-section{ 
+        width: 100%;
+
+    }
+    h1{
+        font-size: 3rem;
+        top: 30%;
+        
+    }
+    p{
+        font-size: 20px;
+        top: 40%;
+        
+    }
+
+}
